@@ -204,6 +204,21 @@ body h1 {
   text-align: center;
   margin-bottom: 1%;
 }
+body h3 {
+  color: white;
+  text-align: center;
+  font-size: 3em;
+  width: 50%;
+  height: 15%;
+  margin-right: 20%;
+  border: solid gold 1px;
+}
+body h3:hover {
+  background-color: darkslategray;
+  border: 1px solid darkslategray;
+  color: gold;
+  transition: ease-in-out 0.3s;
+}
 body .slide-container {
   width: 600px;
   height: 350px;
@@ -253,6 +268,7 @@ body #slider-image-3:target ~ .image-container {
 }
 body .team-container {
   margin: 5% 5%;
+  margin-left: 25%;
   padding: 5% 5%;
   height: 100%;
   width: 90%;
