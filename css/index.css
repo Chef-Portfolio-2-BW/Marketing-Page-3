@@ -257,6 +257,9 @@ body .first-paragraph {
   height: 30%;
   width: 100%;
 }
+body .first-paragraph a {
+  text-decoration: none;
+}
 body p {
   color: white;
   margin: 1% 1%;
