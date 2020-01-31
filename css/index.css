@@ -214,10 +214,14 @@ body h3 {
   border: solid gold 1px;
 }
 body h3:hover {
-  background-color: darkslategray;
-  border: 1px solid darkslategray;
+  background-color: black;
   color: gold;
   transition: ease-in-out 0.3s;
+  border: inset gold 8px;
+}
+body h3 a {
+  text-decoration: none;
+  color: gold;
 }
 body .slide-container {
   width: 600px;
