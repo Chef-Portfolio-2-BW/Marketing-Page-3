@@ -371,6 +371,12 @@ body .inner-food {
   justify-content: center;
   column-count: 2;
 }
+@media (max-width: 500px) {
+  body .inner-food {
+    margin: 0;
+    column-count: 1;
+  }
+}
 body .inner-food img {
   width: 100%;
 }
@@ -379,6 +385,12 @@ body .inner-food p {
   border: solid white 1px;
   margin-left: 20px;
   color: white;
+}
+@media (max-width: 500px) {
+  body .inner-food p {
+    margin: 0;
+    width: 100%;
+  }
 }
 body .inner-food h3 {
   width: 100%;
