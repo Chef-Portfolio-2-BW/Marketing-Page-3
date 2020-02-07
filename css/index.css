@@ -237,6 +237,12 @@ body h3 {
   margin-right: 20%;
   border: solid gold 1px;
 }
+@media (max-width: 500px) {
+  body h3 {
+    width: 100%;
+    margin: 0;
+  }
+}
 body h3:hover {
   background-color: black;
   color: gold;
@@ -313,6 +319,12 @@ body .team-container {
   display: flex;
   flex-direction: column;
 }
+@media (max-width: 500px) {
+  body .team-container {
+    width: 100%;
+    margin: 0;
+  }
+}
 body .team-container img {
   margin: 1% 1%;
   padding: 1% 1%;
@@ -325,6 +337,12 @@ body .team-images {
   width: 100%;
   margin: 1% 1%;
   padding: 1% 1%;
+}
+@media (max-width: 500px) {
+  body .team-images {
+    width: 100%;
+    margin: 0;
+  }
 }
 body .first-paragraph {
   display: flex;
