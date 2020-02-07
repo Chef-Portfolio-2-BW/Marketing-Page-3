@@ -171,6 +171,12 @@ nav {
   padding: 1% 1%;
   display: flex;
 }
+@media (max-width: 500px) {
+  nav {
+    width: 95%;
+    flex-direction: column;
+  }
+}
 nav a {
   margin: 0.7% 0.7%;
   padding: 0.5% 0.5%;
@@ -183,6 +189,13 @@ nav a {
   text-decoration: none;
   color: white;
 }
+@media (max-width: 500px) {
+  nav a {
+    width: 100%;
+    justify-content: center;
+    flex-direction: column;
+  }
+}
 nav a:hover {
   background-color: darkslategray;
   border: 1px solid darkslategray;
@@ -192,6 +205,11 @@ nav a:hover {
 nav img {
   width: 250px;
   height: 80px;
+}
+@media (max-width: 500px) {
+  nav img {
+    margin-left: 100px;
+  }
 }
 body {
   padding: 1% 1%;
@@ -329,6 +347,19 @@ body footer nav {
   margin-top: 50px;
   margin-bottom: 50px;
 }
+@media (max-width: 500px) {
+  body footer nav {
+    width: 95%;
+    flex-direction: column;
+  }
+}
 body footer nav a {
   height: 50%;
+}
+@media (max-width: 500px) {
+  body footer nav a {
+    width: 100%;
+    justify-content: center;
+    flex-direction: column;
+  }
 }
