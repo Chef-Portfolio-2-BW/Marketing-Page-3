@@ -222,6 +222,12 @@ body h1 {
   text-align: center;
   margin-bottom: 1%;
 }
+@media (max-width: 500px) {
+  body h1 {
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+}
 body h3 {
   color: white;
   text-align: center;
@@ -249,6 +255,12 @@ body .slide-container {
   overflow: hidden;
   text-align: center;
 }
+@media (max-width: 500px) {
+  body .slide-container {
+    width: 400px;
+    height: 200px;
+  }
+}
 body .image-container {
   width: 2400px;
   height: 350px;
@@ -265,6 +277,12 @@ body .slider-image {
   width: 600px;
   height: 300px;
   border-radius: 15%;
+}
+@media (max-width: 500px) {
+  body .slider-image {
+    width: 400px;
+    height: 200px;
+  }
 }
 body .button-container {
   top: -20px;
@@ -314,6 +332,12 @@ body .first-paragraph {
   height: 30%;
   width: 100%;
 }
+@media (max-width: 500px) {
+  body .first-paragraph {
+    margin-top: 50px;
+    margin-bottom: 40px;
+  }
+}
 body .first-paragraph a {
   text-decoration: none;
 }
@@ -351,6 +375,9 @@ body footer nav {
   body footer nav {
     width: 95%;
     flex-direction: column;
+    margin: 0;
+    margin-top: 40px;
+    margin-bottom: 20px;
   }
 }
 body footer nav a {
